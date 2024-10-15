@@ -2,12 +2,13 @@ import Sigma from "sigma";
 import DirectedGraph from "graphology";
 import pagerank from "graphology-pagerank";
 import { data } from "../data/table.js";
+import dataJson from "../data/data.json";
 import { setupGraph } from "./graphUtils.js";
 import { setupSigmaEventListeners } from "./sigmaUtils.js";
 
 // Create a graphology graph
 const graph = new DirectedGraph();
-if (graph) setupGraph(data, graph);
+if (graph) setupGraph(dataJson, graph);
 
 // to compute pagerank and return the score per node
 const scores = pagerank(graph);
