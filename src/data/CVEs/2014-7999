@@ -1,0 +1,15 @@
+
+[
+    {
+        "NVD_score": 7.7,
+        "attack_vector": "P",  
+        "attack_complexity": "L", 
+        "privileges_required": "L",  
+        "user_interaction": "R",  
+        "scope": "U",  
+        "confidentiality": "H",  
+        "integrity": "H",  
+        "availability": "H",  
+        "comment": "this score was converted from 2.0 to 3.1"
+    }
+]

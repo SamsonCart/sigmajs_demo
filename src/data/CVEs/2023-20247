@@ -1,0 +1,13 @@
+[
+    {
+        "NVD_score": 4.3,
+        "attack_vector": "N",
+        "attack_complexity": "L",
+        "privileges_required": "L",
+        "user_interaction": "N",
+        "scope": "U",
+        "confidentiality": "N",
+        "integrity": "L",
+        "availability": "N"
+    }
+]

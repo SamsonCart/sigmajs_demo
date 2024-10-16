@@ -1,0 +1,19 @@
+CVEs are of the following format:
+
+[
+    {
+        NVD_score
+        Attack_vector (Network [N], Adjacent [A], Local [L], Physical [P])
+        Attack Complexity: High [H], Low [L]
+        Privileges Required: High [H], Low [L], None [N]
+        User Interaction: (None [N], Required [R])
+
+        I am considering adding:
+        Scope: Changed [C], Unchanged [U]
+        Confidentiality: High [H], Low [L], None [N]
+        Integrity: High [H], Low [L], None [N]
+        Availability: High [H], Low [L], None [N]
+    }
+]
+
+
