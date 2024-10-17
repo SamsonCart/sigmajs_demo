@@ -29,7 +29,9 @@
          "Adjacent_Comnections": ["n/a 4now"],
          "Local_Connections": ["n/a 4now"],
          "Pysical_Connections": ["n/a 4now"],
-         "CCFunctions": "none"
+         "CCFunctions": "none",
+         "x": 20,
+         "y": -10
     },
     {
         "Node": "Layer 3 Switch (Router)",
@@ -54,7 +56,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": "none"
+        "CCFunctions": "none",
+        "x": 20,
+        "y": -20
     },
     {
         "Node": "Layer 2 Switch #1, SA Terminal",
@@ -76,7 +80,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 20,
+        "y": -30
     },
     {
         "Node": "Layer 2 Switch #2, WS1-4, SR1-12, L2S-(Eng + Prod, Test, Comp Mngt)",
@@ -98,7 +104,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 50,
+        "y": -30
     },
     {
         "Node": "Layer 2 Switch #3, Eng + Prod SAN 1-3, Test SAN, Co Mngt SAN, Test Eng Laptop 1 + 2, Co Mgmt WS 1 + 2",
@@ -120,7 +128,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 80,
+        "y": -30
     },
     {
         "Node": "Layer 2 Switch #4, Eng + Prod SAN Archieve & Backup 1 + 2",
@@ -142,7 +152,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 110,
+        "y": -30
     },
     {
         "Node": "Layer 2 Switch #5, Test SAN Archieve & Backup, L2S(E&P SAN Archieve/Backup 1+2), L2S(Cyber + CO Mngt SAN Archieve/Backup)",
@@ -164,7 +176,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 130,
+        "y": -30
     },
     {
         "Node": "Layer 2 Switch #6, Comp Mngt SAN Archieve & Backup, Cyber Tools SAN Archieve Backup, L2S(Test SAN Archieve & Backup",
@@ -186,7 +200,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": []
+        "CCFunctions": [],
+        "x": 150,
+        "y": -30
     },
     
     {
@@ -196,7 +212,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 10,
+        "y": -30
     },
     {
         "Node": "Visualization Manager Server",
@@ -215,7 +233,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F4"]
+        "CCFunctions": ["F1", "F2", "F4"],
+        "x": 10,
+        "y": -40
     },
     {
         "Node": "Workstation 1",
@@ -249,7 +269,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2"]
+        "CCFunctions": ["F1", "F2"],
+        "x": 40,
+        "y": -10
     },
     {
         "Node": "Workstation 2",
@@ -283,7 +305,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F3"]
+        "CCFunctions": ["F3"],
+        "x": 60,
+        "y": -10
     },
     {
         "Node": "Workstation 3",
@@ -317,7 +341,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F2", "F2"]
+        "CCFunctions": ["F2", "F2"],
+        "x": 80,
+        "y": -10
     },
     {
         "Node": "Workstation 4",
@@ -351,7 +377,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F7", "F11"]
+        "CCFunctions": ["F7", "F11"],
+        "x": 100,
+        "y": -10
     },
     {
         "Node": "Workstation 5",
@@ -385,7 +413,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F10", "F13", "F14", "F15"]
+        "CCFunctions": ["F10", "F13", "F14", "F15"],
+        "x": 160,
+        "y": -10
     },
     {
         "Node": "Workstation 6",
@@ -419,7 +449,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F13"]
+        "CCFunctions": ["F13"],
+        "x": 180,
+        "y": -10
     },
     {
         "Node": "Test Laptop 1",
@@ -453,7 +485,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F4"]
+        "CCFunctions": ["F4"],
+        "x": 120,
+        "y": -10
     },
     {
         "Node": "Test Laptop 2",
@@ -487,7 +521,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F8", "F9"]
+        "CCFunctions": ["F8", "F9"],
+        "x": 140,
+        "y": -10
     },
     {
         "Node": "Virtualization Manager SAN Archieve",
@@ -506,7 +542,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F7", "F8"]
+        "CCFunctions": ["F7", "F8"],
+        "x": 30,
+        "y": -40
     },
     {
         "Node": "Cybersecurity Capability and Tools Server",
@@ -549,7 +587,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 10,
+        "y": -50
     },
     {
         "Node": "Audit Log Server",
@@ -562,7 +602,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now", 
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 10,
+        "y": -60
     },
     {
         "Node": "Cybersecurity Capability and Tools SAN Archieve",
@@ -575,7 +617,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now", 
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 30,
+        "y": -50
     },
     {
         "Node": "Audit Log SAN Archieve",
@@ -588,7 +632,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 30,
+        "y": -60
     },
     {
         "Node": "SR 1 & 2",
@@ -607,7 +653,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F3"]
+        "CCFunctions": ["F1", "F2", "F3"],
+        "x": 40,
+        "y": -40
     },
     {
         "Node": "SR 3 & 4",
@@ -620,7 +668,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F4", "F7", "F8", "F9"]
+        "CCFunctions": ["F4", "F7", "F8", "F9"],
+        "x": 40,
+        "y": -50
     },
     {
         "Node": "SR 5 & 6",
@@ -639,7 +689,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F8", "F10", "F13"]
+        "CCFunctions": ["F8", "F10", "F13"],
+        "x": 40,
+        "y": -60
     },
     {
         "Node": "SR 7 & 8",
@@ -652,7 +704,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F12", "F14", "F15"]
+        "CCFunctions": ["F12", "F14", "F15"],
+        "x": 60,
+        "y": -40
     },
     {
         "Node": "SR 9 & 10",
@@ -665,7 +719,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F4", "F7", "F9", "F12"]
+        "CCFunctions": ["F4", "F7", "F9", "F12"],
+        "x": 60,
+        "y": -50
     },
     {
         "Node": "SR 11 & 12",
@@ -693,7 +749,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F2", "F10"]
+        "CCFunctions": ["F2", "F10"],
+        "x": 60,
+        "y": -60
     },
     {
         "Node": "Eng & Prod SAN 1",
@@ -713,7 +771,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F3"]
+        "CCFunctions": ["F1", "F2", "F3"],
+        "x": 70,
+        "y": -40
     },
     {
         "Node": "Eng & Prod San 2",
@@ -726,7 +786,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F3"]
+        "CCFunctions": ["F1", "F2", "F3"],
+        "x": 70,
+        "y": -50
     },
     {
         "Node": "Eng & Prod San 3",
@@ -739,7 +801,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F7"]
+        "CCFunctions": ["F7"],
+        "x": 70,
+        "y": -60
     },
     {
         "Node": "Test SAN",
@@ -752,7 +816,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F4", "F8", "F9"]
+        "CCFunctions": ["F4", "F8", "F9"],
+        "x": 90,
+        "y": -40
     },
     {
         "Node": "Co Mngt SAN",
@@ -771,7 +837,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F10", "F13", "F14", "F15"]
+        "CCFunctions": ["F10", "F13", "F14", "F15"],
+        "x": 90,
+        "y": -50
     },
     {
         "Node": "Eng & Prod SAN Archieve 1",
@@ -784,7 +852,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F3"]
+        "CCFunctions": ["F1", "F2", "F3"],
+        "x": 100,
+        "y": -40
     },
     {
         "Node": "Eng & Prod SAN Archieve 2",
@@ -797,7 +867,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F1", "F2", "F3"]
+        "CCFunctions": ["F1", "F2", "F3"],
+        "x": 100,
+        "y": -50
     },
     {
         "Node": "Eng & Prod SAN Archieve 1 Backup",
@@ -810,7 +882,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F7"]
+        "CCFunctions": ["F7"],
+        "x": 100,
+        "y": -60
     },
     {
         "Node": "Eng & Prod SAN Archieve 2 Backup",
@@ -823,7 +897,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F7"]
+        "CCFunctions": ["F7"],
+        "x": 100,
+        "y": -70
     },
     {
         "Node": "Test SAN Archieve",
@@ -836,7 +912,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F4", "F8", "F9"]
+        "CCFunctions": ["F4", "F8", "F9"],
+        "x": 120,
+        "y": -40
     },
     {
         "Node": "Test SAN Archieve Backup",
@@ -849,7 +927,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F8"]
+        "CCFunctions": ["F8"],
+        "x": 120,
+        "y": -50
     },
     {
         "Node": "Cybersecurity Capability and Tools SAN Archieve Backup",
@@ -862,7 +942,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F5", "F6"]
+        "CCFunctions": ["F5", "F6"],
+        "x": 140,
+        "y": -40
     },
     {
         "Node": "Co Mngt SAN Archieve",
@@ -875,7 +957,9 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F10", "F13", "F14", "F15"]
+        "CCFunctions": ["F10", "F13", "F14", "F15"],
+        "x": 140,
+        "y": -50
     },
     {
         "Node": "Co Mngt SAN Archieve Backup",
@@ -888,6 +972,8 @@
         "Adjacent_Comnections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Pysical_Connections": "n/a 4now",
-        "CCFunctions": ["F10", "F13", "F14", "F15"]
+        "CCFunctions": ["F10", "F13", "F14", "F15"],
+        "x": 140,
+        "y": -60
     }
 ]
