@@ -1,1026 +1,1197 @@
-
 [
-    {
-        "Node": "Boundry Firewall",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-20269"
-            },
-            {
-                "CVE": "2023-20256"
-            },
-            {
-                "CVE": "2023-20247"
-            },
-            {
-                "CVE": "2023-20200"
-            },
-            {
-                "CVE": "2023-20095"
-            },
-            {
-                "CVE": "2023-20015"
-            },
-            {
-                "CVE": "2023-20934"
-            }
-        ],
-         "Network_Connections": ["Layer 3 Switch (Router)", "WS1"],
-         "Adjacent_Connections": ["L2Switch 1"],
-         "Local_Connections": ["n/a 4now"],
-         "Physical_Connections": ["n/a 4now"],
-         "Fundamental_Connections": ["Layer 3 Switch (Router)"],
-         "CCFunctions": "none",
-         "x": 20,
-         "y": -10
-    },
-    {
-        "Node": "Layer 3 Switch (Router)",
-        "Known_CVEs":[
-            {
-                "CVE": "2018-0284"
-            },
-            {
-                "CVE": "2014-7999"
-            },
-            {
-                "CVE": "2014-7993"
-            },
-            {
-                "CVE": "2014-7994"
-            },
-            {
-                "CVE": "2014-7995"
-            }
-        ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["L2Switch 1", "L2Switch 2", "L2Switch 4" ],
-        "CCFunctions": "none",
-        "x": 20,
-        "y": -20
-    },
-    {
-        "Node": "L2Switch 1",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+  {
+    "Node": "Boundry Firewall",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-20269"
+      },
+      {
+        "CVE": "2023-20256"
+      },
+      {
+        "CVE": "2023-20247"
+      },
+      {
+        "CVE": "2023-20200"
+      },
+      {
+        "CVE": "2023-20095"
+      },
+      {
+        "CVE": "2023-20015"
+      },
+      {
+        "CVE": "2023-20934"
+      }
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["System Admin Terminal (Tripp Lite)", "Visualization Manager Server", "Visualization Manager SAN Arc", 
-        "Cybersecurity Capability and Tools Server", "Audit Log Server", "Cybersecurity Capability and Tools SAN Arc", "Audit Log SAN Arc"],
-        "CCFunctions": "none",
-        "x": 20,
-        "y": -30
-    },
-    {
-        "Node": "L2Switch 2",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+    "SW_Make": "Cisco",
+    "SW_Description": "FirePower 4125 Next Generation Firewall with Firepower Threat Defense (FTD) Software",
+    "SW_Version": "6.6.7",
+    "Network_Connections": ["Layer 3 Switch (Router)", "WS1"],
+    "Adjacent_Connections": ["L2Switch 1"],
+    "Local_Connections": ["n/a 4now"],
+    "Physical_Connections": ["n/a 4now"],
+    "Fundamental_Connections": ["Layer 3 Switch (Router)"],
+    "CCFunctions": "none",
+    "x": 20,
+    "y": -10
+  },
+  {
+    "Node": "Layer 3 Switch (Router)",
+    "Known_CVEs": [
+      {
+        "CVE": "2018-0284"
+      },
+      {
+        "CVE": "2014-7999"
+      },
+      {
+        "CVE": "2014-7993"
+      },
+      {
+        "CVE": "2014-7994"
+      },
+      {
+        "CVE": "2014-7995"
+      }
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["L2Switch 3", "WS1", 
-        "WS2", "WS3", "WS4", "SR 1 & 2", "SR 3 & 4", "SR 5 & 6", "SR 7 & 8", "SR 9 & 10", "SR 11 & 12"],
-        "CCFunctions": "none",
-        "x": 50,
-        "y": -30
-    },
-    {
-        "Node": "L2Switch 3",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+    "SW_Make": "Cisco",
+    "SW_Description": "Meraki MS425-32 Layer 3 Switch (firmware 2014-09-23)",
+    "SW_Version": "2014-09-23",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": ["L2Switch 1", "L2Switch 2", "L2Switch 4"],
+    "CCFunctions": "none",
+    "x": 20,
+    "y": -20
+  },
+  {
+    "Node": "L2Switch 1",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["WS 5", "WS 6", "TL 1", "TL 2", 
-        "Co Mngt SAN", "Eng & Prod SAN 1", "Eng & Prod SAN 2", "Eng & Prod SAN 3", "Test SAN"],
-        "CCFunctions": "none",
-        "x": 80,
-        "y": -30
-    },
-    {
-        "Node": "L2Switch 4",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "System Admin Terminal (Tripp Lite)",
+      "Visualization Manager Server",
+      "Visualization Manager SAN Arc",
+      "Cybersecurity Capability and Tools Server",
+      "Audit Log Server",
+      "Cybersecurity Capability and Tools SAN Arc",
+      "Audit Log SAN Arc"
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["Eng & Prod SAN Arc 1", "Eng & Prod SAN Arc 2", "Eng & Prod SAN Arc 1 Backup", "Eng & Prod SAN Arc 2 Backup", 
-        "L2Switch 5"],
-        "CCFunctions": "none",
-        "x": 110,
-        "y": -30
-    },
-    {
-        "Node": "L2Switch 5",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+    "CCFunctions": "none",
+    "x": 20,
+    "y": -30
+  },
+  {
+    "Node": "L2Switch 2",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["Test SAN Arc", "Test SAN CoMng SAN Arc Backup", 
-        "L2Switch 6"],
-        "CCFunctions": "none",
-        "x": 130,
-        "y": -30
-    },
-    {
-        "Node": "L2Switch 6",
-        "Known_CVEs": [ 
-            {
-                "CVE": "2016-6473"
-            },
-            {
-                "CVE": "2017-6606"
-            },
-            {
-                "CVE": "2017-3803"
-            },
-            {
-                "CVE": "2016-1425"
-            }
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "L2Switch 3",
+      "WS1",
+      "WS2",
+      "WS3",
+      "WS4",
+      "SR 1 & 2",
+      "SR 3 & 4",
+      "SR 5 & 6",
+      "SR 7 & 8",
+      "SR 9 & 10",
+      "SR 11 & 12"
     ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": ["CCTools San Arc Backup", "CoMng SAN Arc", "CoMng SAN Arc Backup"],
-        "CCFunctions": "none",
-        "x": 150,
-        "y": -30
-    },
-    {
-        "Node": "System Admin Terminal (Tripp Lite)",
-        "Known_CVEs": "none",
-        "Network_Connections": "none",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 10,
-        "y": -30
-    },
-    {
-        "Node": "Visualization Manager Server",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            }
-        ],
-        "Network_Connections": "n/a 4now",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F4"],
-        "x": 10,
-        "y": -40
-    },
-    {
-        "Node": "WS1",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2"],
-        "x": 40,
-        "y": -10
-    },
-    {
-        "Node": "WS2",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F3"],
-        "x": 60,
-        "y": -10
-    },
-    {
-        "Node": "WS3",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F2", "F2"],
-        "x": 80,
-        "y": -10
-    },
-    {
-        "Node": "WS4",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F7", "F11"],
-        "x": 100,
-        "y": -10
-    },
-    {
-        "Node": "WS 5",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F10", "F13", "F14", "F15"],
-        "x": 160,
-        "y": -10
-    },
-    {
-        "Node": "WS 6",
-        "Known_CVEs": [
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            },
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F13"],
-        "x": 180,
-        "y": -10
-    },
-    {
-        "Node": "TL 1",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            },
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F4"],
-        "x": 120,
-        "y": -10
-    },
-    {
-        "Node": "TL 2",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            },
-            {
-                "CVE": "2023-47804"
-            },
-            {
-                "CVE": "2022-37401"
-            },
-            {
-                "CVE": "2021-33035"
-            },
-            {
-                "CVE": "2020-13958"
-            },
-            {
-                "CVE": "2017-12607"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F8", "F9"],
-        "x": 140,
-        "y": -10
-    },
-    {
-        "Node": "VM SAN Arc",
-        "Known_CVEs": [
-            {
-                "CVE": "2013-1935"
-            },
-            {
-               "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F7", "F8"],
-        "x": 30,
-        "y": -40
-    },
-    {
-        "Node": "Cybersecurity Capability and Tools Server",
-        "Known_CVEs": [
-            {
-                "CVE": "2024-23675"
-            },
-            {
-                "CVE": "2024-23676"
-            },
-            {
-                "CVE": "2023-40593"
-            },
-            {
-                "CVE": "2023-40592"
-            },
-            {
-                "CVE": "2023-0101"
-            },
-            {
-                "CVE": "2021-20135"
-            },
-            {
-                "CVE": "2020-5765"
-            },
-            {
-                "CVE": "2020-7337"
-            },
-            {
-                "CVE": "2009-5118"
-            },
-            {
-                "CVE": "2007-2152"
-            },
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 10,
-        "y": -50
-    },
-    {
-        "Node": "Audit Log Server",
-        "Known_CVEs": [
-            {
-            "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now", 
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 10,
-        "y": -60
-    },
-    {
-        "Node": "Cybersecurity Capability and Tools SAN Arc",
-        "Known_CVEs": [
-            {
-            "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now", 
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 30,
-        "y": -50
-    },
-    {
-        "Node": "Audit Log SAN Arc",
-        "Known_CVEs": [
-            {
-            "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 30,
-        "y": -60
-    },
-    {
-        "Node": "SR 1 & 2",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F3"],
-        "x": 40,
-        "y": -40
-    },
-    {
-        "Node": "SR 3 & 4",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F4", "F7", "F8", "F9"],
-        "x": 40,
-        "y": -50
-    },
-    {
-        "Node": "SR 5 & 6",
-        "Known_CVEs": [
-            {
-                "CVE": "2013-1935"
-            },
-            {
-                "CVE": "2013-2224"
-            },
-            {
-                "CVE": "2013-2188"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F8", "F10", "F13"],
-        "x": 40,
-        "y": -60
-    },
-    {
-        "Node": "SR 7 & 8",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F12", "F14", "F15"],
-        "x": 60,
-        "y": -40
-    },
-    {
-        "Node": "SR 9 & 10",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F4", "F7", "F9", "F12"],
-        "x": 60,
-        "y": -50
-    },
-    {
-        "Node": "SR 11 & 12",
-        "Known_CVEs": [
-            {
-                "CVE": "2017-8543"
-            },
-            {
-                "CVE": "2014-0301"
-            },
-            {
-                "CVE": "2014-0323"
-            },
-            {
-                "CVE": "2014-0315"
-            },
-            {
-                "CVE": "2013-5058"
-            },
-            {
-                "CVE": "2013-5056"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F2", "F10"],
-        "x": 60,
-        "y": -60
-    },
-    {
-        "Node": "Eng & Prod SAN 1",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            }
-
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F3"],
-        "x": 70,
-        "y": -40
-    },
-    {
-        "Node": "Eng & Prod San 2",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F3"],
-        "x": 70,
-        "y": -50
-    },
-    {
-        "Node": "Eng & Prod San 3",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F7"],
-        "x": 70,
-        "y": -60
-    },
-    {
-        "Node": "Test SAN",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F4", "F8", "F9"],
-        "x": 90,
-        "y": -40
-    },
-    {
-        "Node": "Co Mngt SAN",
-        "Known_CVEs": [
-            {
-                "CVE": "2012-2697"
-            },
-            {
-                "CVE": "2012-3440"
-            },
-            {
-                "CVE": "2010-0727"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F10", "F13", "F14", "F15"],
-        "x": 90,
-        "y": -50
-    },
-    {
-        "Node": "Eng & Prod SAN Arc 1",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F3"],
-        "x": 100,
-        "y": -40
-    },
-    {
-        "Node": "Eng & Prod SAN Arc 2",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F1", "F2", "F3"],
-        "x": 100,
-        "y": -50
-    },
-    {
-        "Node": "Eng & Prod SAN Arc 1 Backup",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F7"],
-        "x": 100,
-        "y": -60
-    },
-    {
-        "Node": "Eng & Prod SAN Arc 2 Backup",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F7"],
-        "x": 100,
-        "y": -70
-    },
-    {
-        "Node": "Test SAN Arc",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F4", "F8", "F9"],
-        "x": 120,
-        "y": -40
-    },
-    {
-        "Node": "Test SAN Arc Backup",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F8"],
-        "x": 120,
-        "y": -50
-    },
-    {
-        "Node": "CCTools San Arc Backup",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F5", "F6"],
-        "x": 140,
-        "y": -40
-    },
-    {
-        "Node": "CoMng SAN Arc",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F10", "F13", "F14", "F15"],
-        "x": 140,
-        "y": -50
-    },
-    {
-        "Node": "CoMng SAN Arc Backup",
-        "Known_CVEs": [
-            {
-                "CVE": "2015-7833"
-            }
-        ],
-        "Network_Connections": "none?",
-        "Adjacent_Connections": "n/a 4now",
-        "Local_Connections": "n/a 4now",
-        "Physical_Connections": "n/a 4now",
-        "Fundamental_Connections": "none",
-        "CCFunctions": ["F10", "F13", "F14", "F15"],
-        "x": 140,
-        "y": -60
-    }
+    "CCFunctions": "none",
+    "x": 50,
+    "y": -30
+  },
+  {
+    "Node": "L2Switch 3",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
+    ],
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "WS 5",
+      "WS 6",
+      "TL 1",
+      "TL 2",
+      "Co Mngt SAN",
+      "Eng & Prod SAN 1",
+      "Eng & Prod SAN 2",
+      "Eng & Prod SAN 3",
+      "Test SAN"
+    ],
+    "CCFunctions": "none",
+    "x": 80,
+    "y": -30
+  },
+  {
+    "Node": "L2Switch 4",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
+    ],
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "Eng & Prod SAN Arc 1",
+      "Eng & Prod SAN Arc 2",
+      "Eng & Prod SAN Arc 1 Backup",
+      "Eng & Prod SAN Arc 2 Backup",
+      "L2Switch 5"
+    ],
+    "CCFunctions": "none",
+    "x": 110,
+    "y": -30
+  },
+  {
+    "Node": "L2Switch 5",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
+    ],
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "Test SAN Arc",
+      "Test SAN CoMng SAN Arc Backup",
+      "L2Switch 6"
+    ],
+    "CCFunctions": "none",
+    "x": 130,
+    "y": -30
+  },
+  {
+    "Node": "L2Switch 6",
+    "Known_CVEs": [
+      {
+        "CVE": "2016-6473"
+      },
+      {
+        "CVE": "2017-6606"
+      },
+      {
+        "CVE": "2017-3803"
+      },
+      {
+        "CVE": "2016-1425"
+      }
+    ],
+    "SW_Make": "Cisco",
+    "SW_Description": "Catalyst 2960-X",
+    "SW_Version": "IOS 15.2(1)E",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": [
+      "CCTools San Arc Backup",
+      "CoMng SAN Arc",
+      "CoMng SAN Arc Backup"
+    ],
+    "CCFunctions": "none",
+    "x": 150,
+    "y": -30
+  },
+  {
+    "Node": "System Admin Terminal (Tripp Lite)",
+    "Known_CVEs": "none",
+    "SW_Make": "none",
+    "SW_Description": "Rack Mounted Monitor, Keyboard, and Touchpad",
+    "SW_Version": "B030-008-17-IP",
+    "Network_Connections": "none",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 10,
+    "y": -30
+  },
+  {
+    "Node": "Visualization Manager Server",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 5.0",
+    "Network_Connections": "n/a 4now",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F4"],
+    "x": 10,
+    "y": -40
+  },
+  {
+    "Node": "WS1",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2"],
+    "x": 40,
+    "y": -10
+  },
+  {
+    "Node": "WS2",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F3"],
+    "x": 60,
+    "y": -10
+  },
+  {
+    "Node": "WS3",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F2", "F2"],
+    "x": 80,
+    "y": -10
+  },
+  {
+    "Node": "WS4",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F7", "F11"],
+    "x": 100,
+    "y": -10
+  },
+  {
+    "Node": "WS 5",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F10", "F13", "F14", "F15"],
+    "x": 160,
+    "y": -10
+  },
+  {
+    "Node": "WS 6",
+    "Known_CVEs": [
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      },
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 6.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F13"],
+    "x": 180,
+    "y": -10
+  },
+  {
+    "Node": "TL 1",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      },
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 5.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F4"],
+    "x": 120,
+    "y": -10
+  },
+  {
+    "Node": "TL 2",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      },
+      {
+        "CVE": "2023-47804"
+      },
+      {
+        "CVE": "2022-37401"
+      },
+      {
+        "CVE": "2021-33035"
+      },
+      {
+        "CVE": "2020-13958"
+      },
+      {
+        "CVE": "2017-12607"
+      }
+    ],
+    "SW_Make": ["RedHat", "OpenOffice"],
+    "SW_Description": ["RedHat Enterprise Linux", "Apache OpenOffice"],
+    "SW_Version": ["RHEL 5.0", "4.1.1.4"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F8", "F9"],
+    "x": 140,
+    "y": -10
+  },
+  {
+    "Node": "VM SAN Arc",
+    "Known_CVEs": [
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": "RedHat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 6.0",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F7", "F8"],
+    "x": 30,
+    "y": -40
+  },
+  {
+    "Node": "Cybersecurity Capability and Tools Server",
+    "Known_CVEs": [
+      {
+        "CVE": "2024-23675"
+      },
+      {
+        "CVE": "2024-23676"
+      },
+      {
+        "CVE": "2023-40593"
+      },
+      {
+        "CVE": "2023-40592"
+      },
+      {
+        "CVE": "2023-0101"
+      },
+      {
+        "CVE": "2021-20135"
+      },
+      {
+        "CVE": "2020-5765"
+      },
+      {
+        "CVE": "2020-7337"
+      },
+      {
+        "CVE": "2009-5118"
+      },
+      {
+        "CVE": "2007-2152"
+      },
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": ["RedHat", "McAfee", "Tenable", "Splunk"],
+    "SW_Description": [
+      "RedHat Enterprise Linux",
+      "VirusScan Enterprise",
+      "Nessus Vulnerability Scanner",
+      "Enterprise Security Information and Event Manager (SIEM)"
+    ],
+    "SW_Version": ["RHEL 7.1 ", "2.0", "8.10.0", "8.6"],
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 10,
+    "y": -50
+  },
+  {
+    "Node": "Audit Log Server",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 10,
+    "y": -60
+  },
+  {
+    "Node": "Cybersecurity Capability and Tools SAN Arc",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 30,
+    "y": -50
+  },
+  {
+    "Node": "Audit Log SAN Arc",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 30,
+    "y": -60
+  },
+  {
+    "Node": "SR 1 & 2",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 5.0",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F3"],
+    "x": 40,
+    "y": -40
+  },
+  {
+    "Node": "SR 3 & 4",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F4", "F7", "F8", "F9"],
+    "x": 40,
+    "y": -50
+  },
+  {
+    "Node": "SR 5 & 6",
+    "Known_CVEs": [
+      {
+        "CVE": "2013-1935"
+      },
+      {
+        "CVE": "2013-2224"
+      },
+      {
+        "CVE": "2013-2188"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 6.0",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F8", "F10", "F13"],
+    "x": 40,
+    "y": -60
+  },
+  {
+    "Node": "SR 7 & 8",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F12", "F14", "F15"],
+    "x": 60,
+    "y": -40
+  },
+  {
+    "Node": "SR 9 & 10",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F4", "F7", "F9", "F12"],
+    "x": 60,
+    "y": -50
+  },
+  {
+    "Node": "SR 11 & 12",
+    "Known_CVEs": [
+      {
+        "CVE": "2017-8543"
+      },
+      {
+        "CVE": "2014-0301"
+      },
+      {
+        "CVE": "2014-0323"
+      },
+      {
+        "CVE": "2014-0315"
+      },
+      {
+        "CVE": "2013-5058"
+      },
+      {
+        "CVE": "2013-5056"
+      }
+    ],
+    "SW_Make": "Microsoft",
+    "SW_Description": "Windows Server 2008 Service Pack 2",
+    "SW_Version": "Windows Server 2008 SP2",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F2", "F10"],
+    "x": 60,
+    "y": -60
+  },
+  {
+    "Node": "Eng & Prod SAN 1",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 5.0",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F3"],
+    "x": 70,
+    "y": -40
+  },
+  {
+    "Node": "Eng & Prod San 2",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F3"],
+    "x": 70,
+    "y": -50
+  },
+  {
+    "Node": "Eng & Prod San 3",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F7"],
+    "x": 70,
+    "y": -60
+  },
+  {
+    "Node": "Test SAN",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F4", "F8", "F9"],
+    "x": 90,
+    "y": -40
+  },
+  {
+    "Node": "Co Mngt SAN",
+    "Known_CVEs": [
+      {
+        "CVE": "2012-2697"
+      },
+      {
+        "CVE": "2012-3440"
+      },
+      {
+        "CVE": "2010-0727"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 5.0",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F10", "F13", "F14", "F15"],
+    "x": 90,
+    "y": -50
+  },
+  {
+    "Node": "Eng & Prod SAN Arc 1",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F3"],
+    "x": 100,
+    "y": -40
+  },
+  {
+    "Node": "Eng & Prod SAN Arc 2",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F1", "F2", "F3"],
+    "x": 100,
+    "y": -50
+  },
+  {
+    "Node": "Eng & Prod SAN Arc 1 Backup",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F7"],
+    "x": 100,
+    "y": -60
+  },
+  {
+    "Node": "Eng & Prod SAN Arc 2 Backup",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F7"],
+    "x": 100,
+    "y": -70
+  },
+  {
+    "Node": "Test SAN Arc",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F4", "F8", "F9"],
+    "x": 120,
+    "y": -40
+  },
+  {
+    "Node": "Test SAN Arc Backup",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F8"],
+    "x": 120,
+    "y": -50
+  },
+  {
+    "Node": "CCTools San Arc Backup",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F5", "F6"],
+    "x": 140,
+    "y": -40
+  },
+  {
+    "Node": "CoMng SAN Arc",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F10", "F13", "F14", "F15"],
+    "x": 140,
+    "y": -50
+  },
+  {
+    "Node": "CoMng SAN Arc Backup",
+    "Known_CVEs": [
+      {
+        "CVE": "2015-7833"
+      }
+    ],
+    "SW_Make": "Redhat",
+    "SW_Description": "RedHat Enterprise Linux",
+    "SW_Version": "RHEL 7.1",
+    "Network_Connections": "none?",
+    "Adjacent_Connections": "n/a 4now",
+    "Local_Connections": "n/a 4now",
+    "Physical_Connections": "n/a 4now",
+    "Fundamental_Connections": "none",
+    "CCFunctions": ["F10", "F13", "F14", "F15"],
+    "x": 140,
+    "y": -60
+  }
 ]
