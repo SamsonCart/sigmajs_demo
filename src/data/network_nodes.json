@@ -25,10 +25,11 @@
                 "CVE": "2023-20934"
             }
         ],
-         "Network_Connections": ["Layer 3 Switch (Router)", "Workstation 1"],
-         "Adjacent_Connections": ["Layer 2 Switch #1, SA Terminal"],
+         "Network_Connections": ["Layer 3 Switch (Router)", "WS1"],
+         "Adjacent_Connections": ["L2Switch 1"],
          "Local_Connections": ["n/a 4now"],
          "Physical_Connections": ["n/a 4now"],
+         "Fundamental_Connections": ["Layer 3 Switch (Router)"],
          "CCFunctions": "none",
          "x": 20,
          "y": -10
@@ -56,12 +57,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": ["L2Switch 1", "L2Switch 2", "L2Switch 4" ],
         "CCFunctions": "none",
         "x": 20,
         "y": -20
     },
     {
-        "Node": "Layer 2 Switch #1, SA Terminal",
+        "Node": "L2Switch 1",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -80,12 +82,14 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["System Admin Terminal (Tripp Lite)", "Visualization Manager Server", "Visualization Manager SAN Arc", 
+        "Cybersecurity Capability and Tools Server", "Audit Log Server", "Cybersecurity Capability and Tools SAN Arc", "Audit Log SAN Arc"],
+        "CCFunctions": "none",
         "x": 20,
         "y": -30
     },
     {
-        "Node": "Layer 2 Switch #2, WS1-4, SR1-12, L2S-(Eng + Prod, Test, Comp Mngt)",
+        "Node": "L2Switch 2",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -104,12 +108,14 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["L2Switch 3", "WS1", 
+        "WS2", "WS3", "WS4", "SR 1 & 2", "SR 3 & 4", "SR 5 & 6", "SR 7 & 8", "SR 9 & 10", "SR 11 & 12"],
+        "CCFunctions": "none",
         "x": 50,
         "y": -30
     },
     {
-        "Node": "Layer 2 Switch #3, Eng + Prod SAN 1-3, Test SAN, Co Mngt SAN, Test Eng Laptop 1 + 2, Co Mgmt WS 1 + 2",
+        "Node": "L2Switch 3",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -128,12 +134,14 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["WS 5", "WS 6", "TL 1", "TL 2", 
+        "Co Mngt SAN", "Eng & Prod SAN 1", "Eng & Prod SAN 2", "Eng & Prod SAN 3", "Test SAN"],
+        "CCFunctions": "none",
         "x": 80,
         "y": -30
     },
     {
-        "Node": "Layer 2 Switch #4, Eng + Prod SAN Archieve & Backup 1 + 2",
+        "Node": "L2Switch 4",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -152,12 +160,14 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["Eng & Prod SAN Arc 1", "Eng & Prod SAN Arc 2", "Eng & Prod SAN Arc 1 Backup", "Eng & Prod SAN Arc 2 Backup", 
+        "L2Switch 5"],
+        "CCFunctions": "none",
         "x": 110,
         "y": -30
     },
     {
-        "Node": "Layer 2 Switch #5, Test SAN Archieve & Backup, L2S(E&P SAN Archieve/Backup 1+2), L2S(Cyber + CO Mngt SAN Archieve/Backup)",
+        "Node": "L2Switch 5",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -176,12 +186,14 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["Test SAN Arc", "Test SAN CoMng SAN Arc Backup", 
+        "L2Switch 6"],
+        "CCFunctions": "none",
         "x": 130,
         "y": -30
     },
     {
-        "Node": "Layer 2 Switch #6, Comp Mngt SAN Archieve & Backup, Cyber Tools SAN Archieve Backup, L2S(Test SAN Archieve & Backup",
+        "Node": "L2Switch 6",
         "Known_CVEs": [ 
             {
                 "CVE": "2016-6473"
@@ -200,11 +212,11 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
-        "CCFunctions": [],
+        "Fundamental_Connections": ["CCTools San Arc Backup", "CoMng SAN Arc", "CoMng SAN Arc Backup"],
+        "CCFunctions": "none",
         "x": 150,
         "y": -30
     },
-    
     {
         "Node": "System Admin Terminal (Tripp Lite)",
         "Known_CVEs": "none",
@@ -212,6 +224,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -30
@@ -233,12 +246,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F4"],
         "x": 10,
         "y": -40
     },
     {
-        "Node": "Workstation 1",
+        "Node": "WS1",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -269,12 +283,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2"],
         "x": 40,
         "y": -10
     },
     {
-        "Node": "Workstation 2",
+        "Node": "WS2",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -305,12 +320,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F3"],
         "x": 60,
         "y": -10
     },
     {
-        "Node": "Workstation 3",
+        "Node": "WS3",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -341,12 +357,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F2", "F2"],
         "x": 80,
         "y": -10
     },
     {
-        "Node": "Workstation 4",
+        "Node": "WS4",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -377,12 +394,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F7", "F11"],
         "x": 100,
         "y": -10
     },
     {
-        "Node": "Workstation 5",
+        "Node": "WS 5",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -413,12 +431,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 160,
         "y": -10
     },
     {
-        "Node": "Workstation 6",
+        "Node": "WS 6",
         "Known_CVEs": [
             {
                 "CVE": "2023-47804"
@@ -449,12 +468,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F13"],
         "x": 180,
         "y": -10
     },
     {
-        "Node": "Test Laptop 1",
+        "Node": "TL 1",
         "Known_CVEs": [
             {
                 "CVE": "2012-2697"
@@ -485,12 +505,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F4"],
         "x": 120,
         "y": -10
     },
     {
-        "Node": "Test Laptop 2",
+        "Node": "TL 2",
         "Known_CVEs": [
             {
                 "CVE": "2012-2697"
@@ -521,12 +542,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F8", "F9"],
         "x": 140,
         "y": -10
     },
     {
-        "Node": "Virtualization Manager SAN Archieve",
+        "Node": "VM SAN Arc",
         "Known_CVEs": [
             {
                 "CVE": "2013-1935"
@@ -542,6 +564,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F7", "F8"],
         "x": 30,
         "y": -40
@@ -587,6 +610,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -50
@@ -602,12 +626,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now", 
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -60
     },
     {
-        "Node": "Cybersecurity Capability and Tools SAN Archieve",
+        "Node": "Cybersecurity Capability and Tools SAN Arc",
         "Known_CVEs": [
             {
             "CVE": "2015-7833"
@@ -617,12 +642,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now", 
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 30,
         "y": -50
     },
     {
-        "Node": "Audit Log SAN Archieve",
+        "Node": "Audit Log SAN Arc",
         "Known_CVEs": [
             {
             "CVE": "2015-7833"
@@ -632,6 +658,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 30,
         "y": -60
@@ -653,6 +680,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 40,
         "y": -40
@@ -668,6 +696,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F4", "F7", "F8", "F9"],
         "x": 40,
         "y": -50
@@ -689,6 +718,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F8", "F10", "F13"],
         "x": 40,
         "y": -60
@@ -704,6 +734,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F12", "F14", "F15"],
         "x": 60,
         "y": -40
@@ -719,6 +750,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F4", "F7", "F9", "F12"],
         "x": 60,
         "y": -50
@@ -749,6 +781,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F2", "F10"],
         "x": 60,
         "y": -60
@@ -771,6 +804,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 70,
         "y": -40
@@ -786,6 +820,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 70,
         "y": -50
@@ -801,6 +836,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F7"],
         "x": 70,
         "y": -60
@@ -816,6 +852,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F4", "F8", "F9"],
         "x": 90,
         "y": -40
@@ -837,12 +874,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 90,
         "y": -50
     },
     {
-        "Node": "Eng & Prod SAN Archieve 1",
+        "Node": "Eng & Prod SAN Arc 1",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -852,12 +890,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 100,
         "y": -40
     },
     {
-        "Node": "Eng & Prod SAN Archieve 2",
+        "Node": "Eng & Prod SAN Arc 2",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -867,12 +906,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 100,
         "y": -50
     },
     {
-        "Node": "Eng & Prod SAN Archieve 1 Backup",
+        "Node": "Eng & Prod SAN Arc 1 Backup",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -882,12 +922,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F7"],
         "x": 100,
         "y": -60
     },
     {
-        "Node": "Eng & Prod SAN Archieve 2 Backup",
+        "Node": "Eng & Prod SAN Arc 2 Backup",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -897,12 +938,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F7"],
         "x": 100,
         "y": -70
     },
     {
-        "Node": "Test SAN Archieve",
+        "Node": "Test SAN Arc",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -912,12 +954,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F4", "F8", "F9"],
         "x": 120,
         "y": -40
     },
     {
-        "Node": "Test SAN Archieve Backup",
+        "Node": "Test SAN Arc Backup",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -927,12 +970,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F8"],
         "x": 120,
         "y": -50
     },
     {
-        "Node": "Cybersecurity Capability and Tools SAN Archieve Backup",
+        "Node": "CCTools San Arc Backup",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -942,12 +986,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F5", "F6"],
         "x": 140,
         "y": -40
     },
     {
-        "Node": "Co Mngt SAN Archieve",
+        "Node": "CoMng SAN Arc",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -957,12 +1002,13 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 140,
         "y": -50
     },
     {
-        "Node": "Co Mngt SAN Archieve Backup",
+        "Node": "CoMng SAN Arc Backup",
         "Known_CVEs": [
             {
                 "CVE": "2015-7833"
@@ -972,6 +1018,7 @@
         "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
         "Physical_Connections": "n/a 4now",
+        "Fundamental_Connections": "none",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 140,
         "y": -60
