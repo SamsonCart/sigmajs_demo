@@ -2,7 +2,7 @@ import Sigma from "sigma";
 import DirectedGraph from "graphology";
 import pagerank from "graphology-pagerank";
 import { data } from "../data/table.js";
-import dataJson from "../data/data.json";
+import dataJson from "../data/network_nodes.json";
 import { setupGraph } from "./graphUtils.js";
 import { setupSigmaEventListeners } from "./sigmaUtils.js";
 
@@ -11,21 +11,21 @@ const graph = new DirectedGraph();
 if (graph) setupGraph(dataJson, graph);
 
 // to compute pagerank and return the score per node
-const scores = pagerank(graph);
-console.log(scores);
+//const scores = pagerank(graph);
+//console.log(scores);
 
 // to directly map the result to nodes' attributes
-pagerank.assign(graph);
+//pagerank.assign(graph);
 
 // note that you can also pass options to customize the algorithm
-const p = pagerank(graph, { alpha: 0.9 });
+//const p = pagerank(graph, { alpha: 0.9 });
 
 // To ignore your graph's weights
-pagerank.assign(graph, { getEdgeWeight: null });
+//pagerank.assign(graph, { getEdgeWeight: null });
 
 // create new sigma instance
 const sigmaInstance = new Sigma(graph, document.getElementById("container"));
 setupSigmaEventListeners(sigmaInstance, graph);
 
 // log out page rank
-console.log(p);
+//console.log(p);

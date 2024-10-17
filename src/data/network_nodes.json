@@ -25,10 +25,10 @@
                 "CVE": "2023-20934"
             }
         ],
-         "Network_Connections": ["n/a 4now"],
-         "Adjacent_Comnections": ["n/a 4now"],
+         "Network_Connections": ["Layer 3 Switch (Router)", "Workstation 1"],
+         "Adjacent_Connections": ["Layer 2 Switch #1, SA Terminal"],
          "Local_Connections": ["n/a 4now"],
-         "Pysical_Connections": ["n/a 4now"],
+         "Physical_Connections": ["n/a 4now"],
          "CCFunctions": "none",
          "x": 20,
          "y": -10
@@ -53,9 +53,9 @@
             }
         ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": "none",
         "x": 20,
         "y": -20
@@ -77,9 +77,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 20,
         "y": -30
@@ -101,9 +101,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 50,
         "y": -30
@@ -125,9 +125,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 80,
         "y": -30
@@ -149,9 +149,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 110,
         "y": -30
@@ -173,9 +173,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 130,
         "y": -30
@@ -197,9 +197,9 @@
             }
     ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": [],
         "x": 150,
         "y": -30
@@ -209,9 +209,9 @@
         "Node": "System Admin Terminal (Tripp Lite)",
         "Known_CVEs": "none",
         "Network_Connections": "none",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -30
@@ -230,9 +230,9 @@
             }
         ],
         "Network_Connections": "n/a 4now",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F4"],
         "x": 10,
         "y": -40
@@ -266,9 +266,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2"],
         "x": 40,
         "y": -10
@@ -302,9 +302,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F3"],
         "x": 60,
         "y": -10
@@ -338,9 +338,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F2", "F2"],
         "x": 80,
         "y": -10
@@ -374,9 +374,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F7", "F11"],
         "x": 100,
         "y": -10
@@ -410,9 +410,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 160,
         "y": -10
@@ -446,9 +446,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F13"],
         "x": 180,
         "y": -10
@@ -482,9 +482,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F4"],
         "x": 120,
         "y": -10
@@ -518,9 +518,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F8", "F9"],
         "x": 140,
         "y": -10
@@ -539,9 +539,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F7", "F8"],
         "x": 30,
         "y": -40
@@ -584,9 +584,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -50
@@ -599,9 +599,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now", 
+        "Physical_Connections": "n/a 4now", 
         "CCFunctions": ["F5", "F6"],
         "x": 10,
         "y": -60
@@ -614,9 +614,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now", 
+        "Physical_Connections": "n/a 4now", 
         "CCFunctions": ["F5", "F6"],
         "x": 30,
         "y": -50
@@ -629,9 +629,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F5", "F6"],
         "x": 30,
         "y": -60
@@ -650,9 +650,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 40,
         "y": -40
@@ -665,9 +665,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F4", "F7", "F8", "F9"],
         "x": 40,
         "y": -50
@@ -686,9 +686,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F8", "F10", "F13"],
         "x": 40,
         "y": -60
@@ -701,9 +701,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F12", "F14", "F15"],
         "x": 60,
         "y": -40
@@ -716,9 +716,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F4", "F7", "F9", "F12"],
         "x": 60,
         "y": -50
@@ -746,9 +746,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F2", "F10"],
         "x": 60,
         "y": -60
@@ -768,9 +768,9 @@
 
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 70,
         "y": -40
@@ -783,9 +783,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 70,
         "y": -50
@@ -798,9 +798,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F7"],
         "x": 70,
         "y": -60
@@ -813,9 +813,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F4", "F8", "F9"],
         "x": 90,
         "y": -40
@@ -834,9 +834,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 90,
         "y": -50
@@ -849,9 +849,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 100,
         "y": -40
@@ -864,9 +864,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F1", "F2", "F3"],
         "x": 100,
         "y": -50
@@ -879,9 +879,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F7"],
         "x": 100,
         "y": -60
@@ -894,9 +894,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F7"],
         "x": 100,
         "y": -70
@@ -909,9 +909,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F4", "F8", "F9"],
         "x": 120,
         "y": -40
@@ -924,9 +924,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F8"],
         "x": 120,
         "y": -50
@@ -939,9 +939,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F5", "F6"],
         "x": 140,
         "y": -40
@@ -954,9 +954,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 140,
         "y": -50
@@ -969,9 +969,9 @@
             }
         ],
         "Network_Connections": "none?",
-        "Adjacent_Comnections": "n/a 4now",
+        "Adjacent_Connections": "n/a 4now",
         "Local_Connections": "n/a 4now",
-        "Pysical_Connections": "n/a 4now",
+        "Physical_Connections": "n/a 4now",
         "CCFunctions": ["F10", "F13", "F14", "F15"],
         "x": 140,
         "y": -60
