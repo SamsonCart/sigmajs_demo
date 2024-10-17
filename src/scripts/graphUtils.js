@@ -11,14 +11,8 @@ export const setupGraph = (data, graph) => {
                 x: item.x,
                 y: item.y,
                 size: 20,
-                color: "red",
-                details: `Network Connections: ${item.Network_Connections}
-                <br> Adjacent Connections: ${item.Adjacent_Connections}
-                <br> Local Connections: ${item.Local_Connections}
-                <br> Physical Connections: ${item.Physical_Connections}
-                <br> Fundamental Connections: ${item.Fundamental_Connections}
-                <br>CC Functions: ${item.CCFunctions}
-                `,
+                color: item.Color,
+                details: `CC Functions: ${item.CCFunctions} <br>`,
             });
            lookup[item.Node] = item;
         });
@@ -31,36 +25,9 @@ export const setupGraph = (data, graph) => {
         Object.keys(lookup).forEach((key) => {
             console.log(key);
 
-            // network connections
-            /*const networkConnections = lookup[key].Network_Connections;
-            if(Array.isArray(networkConnections)) {
-                networkConnections.forEach((connection) => {
-                    const target = data.find((item) => item.Node === connection);
-                    if (target) {
-                        const sourceIndex = data.findIndex((item) => item.Node === key);
-                        const targetIndex = data.findIndex((item) => item.Node === connection);
-                        graph.addEdge(sourceIndex, targetIndex, { type: "arrow", color: "black", size: 2 });
-                    }
-                });
-            }*/
-
-            // adjacent connections
-            /*const adjacentConnections = lookup[key].Adjacent_Connections;
-            if(Array.isArray(adjacentConnections)) {
-                adjacentConnections.forEach((connection) => {
-                    const target = data.find((item) => item.Node === connection);
-                    if (target) {
-                        console.log("ta")
-                        const sourceIndex = data.findIndex((item) => item.Node === key);
-                        const targetIndex = data.findIndex((item) => item.Node === connection);
-                        graph.addEdge(sourceIndex, targetIndex, { type: "arrow", color: "black", size: 2 });
-                    }
-                });
-            }*/
-
-            const fundamentalConnections = lookup[key].Fundamental_Connections;
-            if(Array.isArray(fundamentalConnections)) {
-                fundamentalConnections.forEach((connection) => {
+            const FundConnections = lookup[key].Connections;
+            if(Array.isArray(FundConnections)) {
+                FundConnections.forEach((connection) => {
                     const target = data.find((item) => item.Node === connection);
                     if (target) {
                         const sourceIndex = data.findIndex((item) => item.Node === key);
@@ -71,8 +38,5 @@ export const setupGraph = (data, graph) => {
               
             }
         })
-
-        // add edges for network connections
-        //for e
     }
 };
