@@ -1157,12 +1157,25 @@
   {
     "Node": "External Entry Locked",
     "Description": "Locked Door or Window",
-    "Connections": [ "Engineering and Production Room",
-    "Test Lab"
+    "Connections": [ 
+        "Engineering and Production Room",
+        "Test Lab",
+        "Co Mngt Office Suite"
     ],
     "CCFunctions": "none",
     "Color": "blue",
     "x": 10,
+    "y": 15
+  },
+  {
+    "Node": "Security Guard",
+    "Description": "Security Guard On Duty",
+    "Connections": [
+    
+    ],
+    "CCFunctions": "none",
+    "Color": "blue",
+    "x": 20,
     "y": 15
   },
   {
@@ -1189,6 +1202,19 @@
     "CCFunctions": "none",
     "Color": "blue",
     "x": 30,
+    "y": 10
+  },
+  {
+    "Node": "Co Mngt Office Suite",
+    "Description": "Presence in this node means that an individual has gained access to the Co Mngt Office Suite through external entry or the inner door",
+    "Connections": [
+      "<Connected Node 1>",
+      "<Connected Node 2>",
+      "<Connected Node 3>"
+    ],
+    "CCFunctions": "none",
+    "Color": "blue",
+    "x": 50,
     "y": 10
   },
 
